@@ -1,0 +1,160 @@
+/* form {
+    border-radius: 20px;
+} */
+.m-4 {
+    margin: 4px;
+}
+
+input {
+    background: #E4E4E4;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 2em;
+    color: #555555;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    background: #E4E4E4;
+    max-width: calc(100% - 52px);
+    width: 100%;
+    padding: 18px 22px;
+    font-size: 1em;
+    color: #726464;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+
+select {
+    line-height: 50px;
+    padding: 14px 22px;
+    color: #555;
+    font-size: 1.2em;
+    font-family: inherit;
+    width: calc(50% - 10px) !important;
+    border: none;
+    border-radius: 5px;
+}
+
+.ubuntu-font {
+    font-family: 'Titillium Web', sans-serif;
+}
+.roboto-font {
+    font-family: 'Dosis', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.4em;
+    margin: 0.5em 4px;
+}
+
+h5 {
+    font-size: 1em;
+    text-align: right;
+    display: inline-block !important;
+    margin: 0.5em 4px;
+    width: calc(50% - 10px) !important;
+}
+
+p {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 0.5em 4px;
+}
+
+.inline {
+    display: inline;
+    width: calc(50% - 54px);
+    background-color: #E6B0AA ;
+}
+.address {
+    background-color: #E6B0AA ;
+
+}
+/* //.file {
+   // border-radius: 20px;
+} */
+
+body {
+    background-color: #bb91c0;
+    margin-top: 40px;
+    background: linear-gradient(to top right, #CD6155  0%, #7B241C 60%);
+    min-height: calc(100vh - 48px);
+}
+
+.form-container {
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #F9EBEA ;
+    max-width: 50vw;
+    margin: auto;
+}
+
+.title-container {
+    background-color: #000000;
+    padding: 20px 15px 20px;
+    max-width: 50vw;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.title-container > h2 {
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+hr {
+    margin: 20px auto;
+    border: 0; 
+    border-top: 0.0002ex solid #99A3A4;
+}
+
+input[type="submit"], input[type="reset"] {
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #dbd1d1;
+}
+
+input[type="submit"] {
+    background-color: #B03A2E ;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+input[type="submit"]:hover {
+    background-color: #6E2C00 ;
+}
+
+input[type="reset"] {
+    background: #B03A2E ;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+input[type="reset"]:hover {
+    background: #6E2C00  ;
+    
+}
+.hoves :hover {
+    background-color: #F9EBEA;
+    
+}
+
+div {
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+}
